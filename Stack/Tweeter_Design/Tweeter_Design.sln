@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tweeter_Design", "Tweeter_Design.csproj", "{EE7A199B-4454-4FC3-A9D0-599EB1DBBBDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE7A199B-4454-4FC3-A9D0-599EB1DBBBDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE7A199B-4454-4FC3-A9D0-599EB1DBBBDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE7A199B-4454-4FC3-A9D0-599EB1DBBBDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE7A199B-4454-4FC3-A9D0-599EB1DBBBDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A57F441-88CF-4813-8311-4EA40B63D29C}
+	EndGlobalSection
+EndGlobal

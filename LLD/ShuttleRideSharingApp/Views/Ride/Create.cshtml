@@ -1,0 +1,34 @@
+﻿@model ShuttleRideSharingApp.Models.Ride
+
+@{
+    ViewData["Title"] = "Create a New Ride";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label for="StartLocation">Start Location</label>
+        <input type="text" class="form-control" id="StartLocation" name="StartLocation" required />
+    </div>
+    <div class="form-group">
+        <label for="EndLocation">End Location</label>
+        <input type="text" class="form-control" id="EndLocation" name="EndLocation" required />
+    </div>
+    <div class="form-group">
+        <label for="NumberOfSeats">Number of Seats</label>
+        <input type="number" class="form-control" id="NumberOfSeats" name="NumberOfSeats" min="1" required />
+    </div>
+    <div class="form-group">
+        <label for="DriverId">Driver</label>
+        <select class="form-control" id="DriverId" name="DriverId">
+            @* Assuming you have a list of drivers passed to the view *@
+            @foreach (var driver in ViewBag.Drivers)
+            {
+                <option value="@driver.Id">@driver.Name</option>
+            }
+        </select>
+    </div>
+    <button type="submit" class="btn btn-success">Create Ride</button>
+</form>
+

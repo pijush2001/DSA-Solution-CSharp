@@ -1,0 +1,37 @@
+﻿@model List<ShuttleRideSharingApp.Models.Ride>
+
+@{
+    ViewData["Title"] = "Available Rides";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Ride ID</th>
+            <th>Driver</th>
+            <th>Start Location</th>
+            <th>End Location</th>
+            <th>Seats Available</th>
+            <th>Status</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ride in Model)
+        {
+            <tr>
+                <td>@ride.Id</td>
+                <td>@ride.Driver.Name</td>
+                <td>@ride.StartLocation</td>
+                <td>@ride.EndLocation</td>
+                <td>@ride.NumberOfSeats</td>
+                <td>@ride.Status</td>
+                <td>
+                    <a class="btn btn-primary" href="/Ride/Book/@ride.Id">Book Ride</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

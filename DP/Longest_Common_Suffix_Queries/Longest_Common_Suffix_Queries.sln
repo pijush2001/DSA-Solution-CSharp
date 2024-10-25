@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longest_Common_Suffix_Queries", "Longest_Common_Suffix_Queries\Longest_Common_Suffix_Queries.csproj", "{C3097495-EB03-4036-AAC9-D0843C029BAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3097495-EB03-4036-AAC9-D0843C029BAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3097495-EB03-4036-AAC9-D0843C029BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3097495-EB03-4036-AAC9-D0843C029BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3097495-EB03-4036-AAC9-D0843C029BAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83DEB7A4-E7F3-417D-969F-1DB1879349C4}
+	EndGlobalSection
+EndGlobal
